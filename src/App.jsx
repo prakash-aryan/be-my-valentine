@@ -154,7 +154,7 @@ function App() {
           {/* Title with decorative underline */}
           <div className="text-center relative">
             <h1 className="text-3xl font-bold text-pink-500 inline-block">
-              Hey cutie! <Sparkles className="inline-block ml-1" />
+              {answer ? "My Valentine! 💖" : "Hey cutie!"} <Sparkles className="inline-block ml-1" />
             </h1>
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-transparent via-pink-300 to-transparent" />
           </div>
@@ -220,7 +220,7 @@ function App() {
                 YAAAAAAY! 🎉
               </h2>
               <p className="text-lg text-gray-700">
-                I promise to make you the happiest! 💕
+              Feline lucky to have you as my valentine! Let's make some meow-mories! 😽💫
               </p>
             </div>
           )}
